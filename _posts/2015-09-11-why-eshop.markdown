@@ -1,0 +1,65 @@
+---
+title: Start an online shop
+subtitle: eShop with ease
+layout: blogtemp
+date: 2015-09-11
+img: roundicons.png
+thumbnail: roundicons-thumbnail.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Sell online with eCommerce solutions
+permalink: /online-shop/
+---
+<div class="container">
+	<div class="blog-container">
+	    <div class="row">
+        	<div class="col-xs-12 col-sm-6 col-lg-8">
+        		<h2 class="section-heading">Why eCommerce?</h2>
+					<p class="text-muted">If you are not selling online then you may be missing out big time. And if you do have a e-commerce website it better be functional and reachable.
+											So is your business going to be part of this online revolution?</p>
+
+					<p class="text-muted">Still not sure? Consider these facts and decide yourself –</p>
+				<h3 class="section-subheading text-muted">WHY DO CONSUMERS SHOP ONLINE?</h3>
+					<ul class="list-group">
+ 						<li class="list-group-item">To save time 73%</li>
+    					<li class="list-group-item">Comparing and clarity of prices 59%</li>
+    					<li class="list-group-item">Much more Variety 67%Cost effective 55%</li>
+    					<li class="list-group-item">Some times less Taxes 30%</li>
+   						<li class="list-group-item"> Can be done from your own comfort beating the crowd 58%</li>
+    					<li class="list-group-item">Less travelling 40%</li>
+    					<li class="list-group-item"> Other 3%</li>
+					</ul>
+
+				<h3 class="section-subheading text-muted">SHOPPERS BY AGE GROUP</h3>
+					<ul class="list-group">
+ 						<li class="list-group-item">Age 18-30: 54%</li>
+						<li class="list-group-item">Age 31-44: 68%</li>
+						<li class="list-group-item">Age 45-54: 64%</li>
+						<li class="list-group-item">Age 55-65: 68%</li>
+						<li class="list-group-item">Age 66+: 48%</li>
+						</ul>
+
+					<p class="text-muted">Therefore, based on the shoppers by age stats, we see that the leading demographic age groups are the 31-44 and the 55-65, which is surprising as most people believe e-commerce is very driven by younger age demographics.</p>
+
+					<p class="text-muted">More to come soon!</p>
+
+					<p class="text-muted">Contact us today to get started. We have years of experience building and launching online businesses.</p>			
+				</div>
+
+				<div class="col-xs-6 col-lg-4">
+            	<h2>Archive</h2>
+            		<p class="text-muted">CSS is used for describing the presentation of web pages. The CSS tutorial section will help you learn the essentials of CSS, so that you can fine control the style and layout of your HTML document.</p>
+            		<p class="text-muted"><a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
+        			<ul class="list-group">
+  						{% for post in site.posts %}
+    					<li class="list-group-item">
+      					<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    					</li>
+ 					 	{% endfor %}
+					</ul>
+			    </div>
+			</div>
+	</div>
+</div>
